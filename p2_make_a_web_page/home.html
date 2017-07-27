@@ -1,0 +1,63 @@
+<!-- This is an HTML comment. Comments allow you to communicate with other programmers using
+text that will be ignored by the computer! -->
+<!DOCTYPE html> <!-- The DOCTYPE tells the browser what kind of document this is (HTML) -->
+<html>
+  <head> <!-- The head tag includes important information about the page -->
+    <meta charset="UTF-8"> <!-- This line defines something called "character encoding"
+    This will allow the browser to display certain characters (such as non-Roman letters) correctly.
+    You should include this line in the head of all of your webpages. -->
+    <title>Jay's Space</title> <!-- This is the title of your page (what appears in the name of a browser tab) -->
+    <link rel="stylesheet" href="style.css"> <!-- This line links your CSS stylesheet to your HTML (see Lesson 1.3) -->
+  </head>
+  <body> 
+  
+  <div id="top" class="container-top"> <!--This is the top part of the page-->
+  	<div class="avatar"></div> <!--To set up circle avatar image-->
+  	<h3 class="name"> Jianyu(Jay) Gong  
+  	</h3>
+  </div>
+
+  <div class="container-middle"> <!--Navigation-->
+  	<nav> <!-- Use this to refer to three different pages-->
+  		  <a href="home.html" class="Navigation">HOME</a> 
+        <a href="photo.html" class="Navigation">PHOTO</a> 
+        <a href="note.html" class="Navigation">NOTE</a> 
+    </nav>
+  </div>
+            <!--Bottom container-->
+  <div class="container-bottom">
+    <div class="bottom-left"> 	
+  	         <!--Personal information-->
+       <ul class="information">
+  		 <li><span>Age</span>: 25</li>
+  		 <li><span>Location</span>: Mississauga, Ontario</li>
+  		 <li><span>Occupation</span>: Civil Engnieer</li>
+  		 <li><span>Interests</span>: Technology, Travel, Drone, Phohography, Gaming</li>
+  	   </ul>
+            <!--Three logos-->
+         <a href="http://weibo.com/1758546973/profile?topnav=1&wvr=6&is_all=1" class="logo"><img src="image/weibo.png" alt="weibo" class="logo"></a>
+         <a href="https://www.instagram.com/jianyug/?hl=en" class="logo"><img src="image/instagram.png" alt="instagram" class="logo"></a>
+         <a href="https://www.linkedin.com/in/jianyu-gong-1a991ab1/" class="logo"><img src="image/linkedIn.jpg" alt="linkedIn" class="logo"></a>
+         
+  	</div> 
+            <!--Text-->
+  	  <div class="paragraph">  	
+  	     <h2>More About Me!</h2>
+
+  	     <p>
+  	       My name is Jay. I am from China. My hometown is <span class="city">Dalian</span> which is a small coastal city in the northeast of China. I studied Material Science Engineering in <span class="city">Wuhan</span>, China for two years and continued my undergraduate study in <span class="city">Melbourne, Australia</span> for another two years to get my bachelor degree. Then I moved to Toronto, Canada and finished my master degree in University of Toronto. And now, I am living in <span class="city">Mississauga</span> and working as a Civil Engineer.  
+  		 </p>
+  		 <p>
+  		   I like travelling. I have been to <span class="country">South Korean</span>, <span class="country">Malaysia</span>, <span class="country"> Singpore</span>, <span class="country">Australia</span>, <span class="country">United State</span> and <span class="country">Mexico</span>. I recently fall in love with drone. You can find my photos by clicking photo above. Follow me on Weibo and Instagram if you like this page.
+  		 </p>
+
+  		</div>
+  </div>
+           <!--Drone Photo and citation-->  
+        <img src="image/drone.jpg" width="590" height="400" alt="drone" class="drone">
+        <p class="cite">Toronto - Above Queen's Park.</p> 
+       
+         <!--Back to top logo-->
+        <a href="#top"><img src="image/arrow.png" alt="arrow" class="back-to-top"></a>
+  </body>
+</html>

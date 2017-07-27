@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jay's Note</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>    
+    <div id="top" class="container-top"> <!--This is the top part of the page-->
+  	  <div class="avatar">
+  	  </div> <!--To set up circle avatar image-->
+  	  <h3 class="name"> Jianyu(Jay) Gong</h3>
+    </div>
+
+    <div class="container-middle"> <!--Navigation-->
+  	  <nav> <!-- Use this to refer to three different pages-->
+  		  <a href="home.html" class="Navigation">HOME</a> 
+          <a href="photo.html" class="Navigation">PHOTO</a> 
+          <a href="note.html" class="Navigation">NOTE</a> 
+      </nav>
+    </div>
+  <!-- note part-->
+    
+    <div class="box-note">
+      <h4 class="title"> What is HTML?</h4>
+
+      <p class="content">HTML is HyperText Markup Language which is the protocol between the Internet and servers.</p>
+
+      <h4 class="title"> HTML Markup</h4>
+      
+      <p class="title">Element:<br>
+      <p style="text-align:center"> &lt;name&gt; contents &lt;&#47;name&gt;</p>
+      <p class="content">In this case, &lt;name&gt; is an opening tag and &lt;&#47;name&gt; is a closing tag. <strong>Don't forget to write closing tag.</strong></p>
+
+      <h4 class="title">More tags</h4>
+
+      <p class="content"> &lt;bold&gt; defines <b>bold</b><br>
+            &lt;em&gt; defines <em>emphasis</em><br>
+            &lt;a&gt; refers to a <a href="http://www.google.ca">link</a><br>
+            Some tags such as &lt;br&gt; have no closing tag which are called void tag.You can also insert images <img src="https://b.fastcompany.net/multisite_files/fastcompany/imagecache/inline-small/inline/2015/09/3050613-inline-i-2-googles-new-logo-copy.png;" alt="Google">. Also, we can sepcify color by using a <span style=color:red>span tag</span>.</p>
+    
+    
+       <div style="color:green;font-size:150%">We can also specify a block style by using a div tag.
+       </div>
+    	
+    	<h4 class="title"> CSS Vocabulary</h4>
+    	  <ul class="list">
+    		<li>CSS: Cascading Style Sheets</li>
+    		<li>Rule: A line of CSS code describing the value that a certain attribute should take.</li>
+    		<li>Property: The property you want to change.</li>
+    		<li>Value: The value that you want to assign to the attribute.</li>
+    		<li>Selector: The name that you use to in order to target the elements that are assigned to a class or id attribute in the HTML.</li>
+          </ul>
+        <h4 class="title">Why CSS is important?</h4>
+          <ol class="list">
+            <li>Save time.</li>
+            <li>Write less code.</li>
+            <li>Prevent organizing mistakes.</li>
+          </ol>
+        <h4 class="title">How to include</h4>
+        <ol class="list">
+        	<li>Wirte in head of your HTML</li>
+        	<li>Link HTML to a separate.css file, link ref="stylesheet" href="main.css"</li>
+        	<li>Write your style inlune with your HTML.</li>
+        </ol>
+    </div>
+    <!-- end of note part-->
+    <a href="#top"><img src="image/arrow.png" alt="arrow" class="back-to-top"></a>
+</body>
+</html>
